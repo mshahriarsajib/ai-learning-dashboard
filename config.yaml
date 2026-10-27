@@ -1,0 +1,9 @@
+# config.yaml - Dashboard & MLflow settings
+title: "AI Learning Journey Dashboard"
+version: "1.0.0"
+
+# Base URL for the MLflow UI - change if you host it elsewhere
+mlflow_base_url: "http://localhost:5000"
+
+# Optional: path to the SQLite DB (useful if you mount a volume)
+database_path: "dashboard.db"
